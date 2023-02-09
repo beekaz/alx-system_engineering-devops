@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ah -m . -u * sort [:alnum:]  \n
+ls -amvp
