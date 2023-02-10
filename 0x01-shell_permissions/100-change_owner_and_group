@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo vincent chown hello
+chown vincent hello
