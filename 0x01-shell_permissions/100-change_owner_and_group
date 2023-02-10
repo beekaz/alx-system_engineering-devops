@@ -1,2 +1,2 @@
 #!/bin/bash
-set rstchown  vincent staff
+ chown vincent:staff*
