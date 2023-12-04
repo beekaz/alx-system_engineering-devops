@@ -1,0 +1,9 @@
+# Use scp to transfer the file to the user home directory on the server
+scp -o StrictHostKeyChecking=no -i "$ssh_key" "$file_path" "$username@$server_ip:~/"
+
+# Check the exit status of scp
+if [ $? -eq 0 ]; then
+    echo "File transfer successful."
+else
+    echo "File transfer failed."
+fi
