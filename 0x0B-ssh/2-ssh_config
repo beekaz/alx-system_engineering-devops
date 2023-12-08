@@ -3,3 +3,4 @@
 Host *
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
+	HostbasedAuthentication no
